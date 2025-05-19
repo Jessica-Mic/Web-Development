@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us</title>
+    <link rel="stylesheet" href="contact-us-page.css">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Contact Us</title>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" />
+        <link rel="stylesheet" href="contact-us-page.css">
+        
+    <style>
+        .navbar {
+            font-family: 'Segoe UI', sans-serif;
+            padding: 15px 30px;
+            background-color: #5BBAD5;
+          }
+      
+          .navbar-nav .nav-link {
+            margin: 0 5px;
+            font-size: 20px;
+            color: #f5f5f5;
+          }
+      
+          .navbar-nav .nav-link:hover {
+            color: #5BBAD5;
+            text-decoration: underline;
+          }
+      
+          .navbar-brand img {
+            height: 70px;
+          }
+      
+          img {
+            display: block;
+            margin: 30px auto;
+            border-radius: 8px;
+          }
+        </style>
+      </head>
+      <body>
+        
+        <nav class="navbar navbar-expand-lg bg-dark navbar-dark justify-content-center">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="#">Rei de Sapori</a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                <ul class="navbar-nav mx-auto">
+                  <li class="nav-item">
+                    <a class="nav-link active" href="index.html">Home</a>
+                  </li>
+                  <li class="nav-item"><a class="nav-link" href="services-page.html">Services</a></li>
+                  <li class="nav-item"><a class="nav-link" href="gallery-page.html">Gallery</a></li>
+                  <li class="nav-item"><a class="nav-link" href="menu-page.html">Menu</a></li>
+                  <li class="nav-item"><a class="nav-link" href="contact-us-page.html">Contact Us</a></li>
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      Join Us
+                    </a>
+                    <ul class="dropdown-menu">
+                      <li><a class="dropdown-item" href="join-us-occassions-page.html">Occasions</a></li>
+                      <li><a class="dropdown-item" href="join-us-vacancies-page.html">Vacancies</a></li>
+                    </ul>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </nav>
+
+
+<div class="form-container">
+    <form 
+    action="mailto:info@classExample.com"
+    method="post"
+    enctype="text/plain">
+
+    <fieldset>
+        <legend>Personal Details</legend>
+<label for="firstName">First Name</label>
+<input type="text"  id="firstName"
+name="firstName" placeholder="Joe" required>
+
+<br>
+
+<label for="lastName">Last Name</label>
+<input type="text"  id="lastName"
+name="lastName" placeholder="Borg" required>
+
+<br>
+
+
+
+<fieldset>
+<legend>Contact Information</legend>
+
+<label for="email">Email Address:</label>
+<input type="email" name="email" id="email"
+placeholder="joeborg@gmail.com">
+
+<br>
+
+<label for="phone">Phone Number</label>
+<input type="tel" name="phone" id="phone"
+placeholder="9912 3456" required pattern="[0-9]{4} [0-9]{4}">
+
+<br>
+
+<br>
+<label for="offers">Contact me about new offers</label>
+<input type="checkbox" name="offers" id="offers">
+
+</fieldset>
+
+<fieldset>
+<legend>Message Details</legend>
+
+
+    <br>
+
+    <label for="message">Message:</label>
+    <textarea 
+        name="message" id="message"
+        cols="30" rows="10"
+        placeholder="Write your interest..."
+        ></textarea>
+
+</fieldset>
+
+<button type="submit">Send</button> 
+<button type="reset">Cancel</button>
+
+    </form>
+</div>
+<br>
+<br>
+<br>
+<br>
+<div class="footer">
+    <div class="contact-info">
+      <span><img src="/Users/jessica_micallef/Downloads/mail.png" alt="email"> redeisapori.malta@gmail.com</span>
+      <span><img src="/Users/jessica_micallef/Downloads/phone-call.png" alt="call"> +356 7980 8181</span>
+      <span><img src="/Users/jessica_micallef/Downloads/location.png" alt="location"> 46, Triq il-Kbira, Mellieha, Malta</span>
+    </div>
+    <div class="social-icon">
+      <a href="https://www.facebook.com/profile.php?id=61574104058618" target="_blank" rel="noopener noreferrer">
+        <img src="/Users/jessica_micallef/Downloads/facebook.png" alt="Facebook">
+      </a>
+    </div>
+  </div>
+
+    
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

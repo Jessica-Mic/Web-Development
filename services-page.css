@@ -1,0 +1,48 @@
+.footer {
+    position: fixed;
+    background-color: #5BBAD5;
+    color: white;
+    padding: 5px 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    bottom: 0;
+    width: 100%;
+  }
+  
+  .contact-info {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    align-items: center;
+  }
+  
+  .contact-info span {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+  }
+  
+  .contact-info img,
+  .social-icon img {
+    width: 40px;
+    height: 40px;
+    margin-right: 20px;
+  }
+  
+  .social-icon a {
+    display: inline-block;
+  }
+  
+
+
+  a {
+    color:aliceblue 
+     
+  }
+  
+  a:hover {
+    color: #1a73e8; 
+    text-decoration: underline; 
+  }
